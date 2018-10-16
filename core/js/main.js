@@ -59,6 +59,9 @@ function handle(delta) {
 }
 
 $(document).ready(function (){
+    if ($(window).width() < $(window).height()) {
+   $('.slick-wrapper').addClass('mobile-fix');
+    }
     var viewportHeight = $(window).outerHeight();
     var viewportWidth = $(window).outerWidth();
     var ratioFix = (viewportHeight/viewportWidth)
