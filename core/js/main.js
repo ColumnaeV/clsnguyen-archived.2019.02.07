@@ -8,7 +8,7 @@ document.onreadystatechange = function () {
           document.getElementById('interactive');
           document.getElementById('load').style.cssText="opacity:0;z-index:-2;";
           document.getElementById('body-container').style.opacity="1";
-      },2000);
+      },500);
   }
 }
 
@@ -18,7 +18,7 @@ $(document).ready(function (){
     }
     //Smooth Scrolling//
     $("html").easeScroll({
-        frameRate: 60,
+        frameRate: 120,
         animationTime: 1500,
         stepSize: 60,
         pulseAlgorithm: 1,
