@@ -704,6 +704,7 @@ section {
     align-items: center;
     position: relative;
 }
+/*ERROR ON LOAD MOBILE NO WEBKIT
 .bottom-triangle {
     position: absolute;
     bottom: -1vw;
@@ -716,6 +717,7 @@ section {
     opacity: 1;
     z-index: 10;
 }
+*/
 .parallax-wrapper {
     width: 100vw;
     height: 42vw;
