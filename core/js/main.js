@@ -99,36 +99,31 @@ $(document).ready(function (){
     $(window).scroll(function(){
         if($(window).scrollTop() < $("#section1").offset().top - 50 ){
             $(".nav-wrapper").removeClass('nav-wrapper-add');
-            $("#logo-img").removeClass('logo-image-hide').addClass('logo-image-show');
-            $("#logo-img-dark").addClass('logo-image-hide').removeClass('logo-image-show');
             $('span').removeClass('span-change');
             document.title = 'Christian Nguyen';
         }else{
-            $("#logo-img").addClass('logo-image-hide').removeClass('logo-image-show');
-            $("#logo-img-dark").removeClass('logo-image-hide').addClass('logo-image-show');
-            $('span').addClass('span-change');
             $(".nav-wrapper").addClass('nav-wrapper-add');
         }
         if($(window).scrollTop() >= $("#section1").offset().top - 50  && $(window).scrollTop() < $("#section2").offset().top - 50 ){
-            $("#tab1").css("border-bottom","2px solid #8D0000");
+            $("#tab1").css("border-bottom","2px solid #00b8e6");
             document.title = 'Christian Nguyen | Developer';
         }else{
             $("#tab1").css("border-bottom","2px solid rgba(0,0,0,0)");
         }
         if($(window).scrollTop() >= $("#section2").offset().top - 50  && $(window).scrollTop() < $("#section3").offset().top - 50 ){
-            $("#tab2").css("border-bottom","2px solid #8D0000");
+            $("#tab2").css("border-bottom","2px solid #00b8e6");
             document.title = 'Christian Nguyen | Projects';
         }else{
             $("#tab2").css("border-bottom","2px solid rgba(0,0,0,0)");
         }
         if($(window).scrollTop() >= $("#section3").offset().top - 50  && $(window).scrollTop() < $("#section4").offset().top - 50 ){
-            $("#tab3").css("border-bottom","2px solid #8D0000");
+            $("#tab3").css("border-bottom","2px solid #00b8e6");
             document.title = 'Christian Nguyen | Business';
         }else{
             $("#tab3").css("border-bottom","2px solid rgba(0,0,0,0)");
         }
         if($(window).scrollTop() >= $("#section4").offset().top - 50 ){
-            $("#tab4").css("border-bottom","2px solid #8D0000");
+            $("#tab4").css("border-bottom","2px solid #00b8e6");
             document.title = 'Christian Nguyen | Connect';
         }else{
             $("#tab4").css("border-bottom","2px solid rgba(0,0,0,0)");
