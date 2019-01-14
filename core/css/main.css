@@ -176,7 +176,6 @@ img {
     -webkit-user-drag: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-    display: inherit;
 }
 
 /*Logo*/
@@ -771,7 +770,7 @@ u {
     background-color: #000;
 }
 .footer-img {
-    width: 2em;
+    width: 4em;
 }
 .footer-text {
     font-size: 0.7em;
