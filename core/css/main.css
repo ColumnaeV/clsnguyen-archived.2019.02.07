@@ -77,7 +77,7 @@ p {
 .project-link {
     border: 1px solid #00b8e6;
     border-radius: 1.5em;
-    margin: 0;
+    margin: 1em 0 1em 0;
     padding: 1em;
     font-size: 1em;
     color: #00b8e6;
@@ -170,7 +170,6 @@ a:hover {
 }
 
 img {
-    user-drag: none; 
     user-select: none;
     -moz-user-select: none;
     -webkit-user-drag: none;
@@ -362,11 +361,11 @@ div {
 /*Selection Style*/
 ::selection {
     color: #f1f1f1;
-    background: #555;
+    background: #00b8e6;
 }
 ::-moz-selection {
     color: #f1f1f1;
-    background: #555;
+    background: #00b8e6;
 }
 
 /*Down Arrow Styles*/
@@ -629,7 +628,7 @@ section {
     position: relative;
     white-space: nowrap;
 }
-.project-link {
+.ds-split-small .project-link {
     display: none;
 }
 .text-wrapper {
